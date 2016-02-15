@@ -60,15 +60,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="gruntfile.js" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <None Include="Scripts\jquery-2.2.0.intellisense.js" />
-    <Content Include="Scripts\jquery-2.2.0.js" />
-    <Content Include="Scripts\jquery-2.2.0.min.js" />
-    <Content Include="Scripts\jquery-2.2.0.min.map" />
+    <Content Include="package.json" />
     <Content Include="Style\main.css">
       <DependentUpon>main.less</DependentUpon>
     </Content>
@@ -81,7 +78,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="calc.js" />
+    <Content Include="Scripts\calc.js" />
     <Content Include="index.html" />
     <Content Include="Style\main.min.css">
       <DependentUpon>main.css</DependentUpon>

@@ -1,0 +1,11 @@
+{
+  "name": "rtdde.calculatorprototype",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^4.0.1",
+    "jquery": "^2.2.0",
+    "msgpack-lite": "^0.1.15"
+  }
+}
