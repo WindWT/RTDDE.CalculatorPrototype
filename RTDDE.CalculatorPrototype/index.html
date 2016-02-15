@@ -1,33 +1,23 @@
 ﻿<!doctype html>
-<html>
+<html ng-app="calcApp">
 <head>
     <title>RTDDE.CalculatorPrototype</title>
     <link href="Style/main.min.css" rel="stylesheet" />
 </head>
 <body>
     <h2>RTDDE.Calculator<small> Prototype</small></h2>
-    <div class="table">
-        <div class="row">
-            <div style="width: 10%">
-                
-            </div>
-            <div style="width: 60%"></div>
-            <div style="width: 20%">
-                
-            </div>
-            <div style="width: 10%"></div>
-        </div>
-    </div>
-    <script src="Scripts/Compiled/calc.js"></script>
+    
+    <script src="Scripts/jquery-2.2.0.js"></script>
+    <script src="calc.js"></script>
     <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
     </script>
     <script type="text/javascript">
-        try {
-            var pageTracker = _gat._getTracker("UA-68987659-1");
+            try {
+              var pageTracker = _gat._getTracker("UA-68987659-1");
             pageTracker._trackPageview();
-        } catch (err) { }
+            } catch(err) {}
     </script>
 </body>
 </html>
